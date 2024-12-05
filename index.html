@@ -1,0 +1,8 @@
+<div id="clock"></div>
+<script>
+  const clock = document.getElementById("clock");
+  setInterval(() => {
+    const now = new Date();
+    clock.innerText = now.toLocaleTimeString();
+  }, 1000);
+</script>
